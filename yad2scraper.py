@@ -14,8 +14,8 @@ def fetchJson(section : str  , catgeory : int, item : int , printIt= False , pag
 
 def items(section , catgeory : int , searchTerm):
     cats = requests.get(f"https://gw.yad2.co.il/search-options/products/{section}?fields={searchTerm}&category={catgeory}").json()
-    for item in cats["data"][searchTerm] : 
-        yield item
+    yield from cats["data"][searchTerm] 
+
     
 def to_csv(name, jsonList : list ):
     with open(name, 'w', newline='',encoding="utf-16") as csvfile:
