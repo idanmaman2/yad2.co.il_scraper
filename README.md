@@ -1,5 +1,5 @@
 # yad2.co.il scraper
-> 3 files created by the script : 
+> 3 files are created by the script : 
 >> 1 : Areas codes - so the user will be able to filter to his area 
 
 <img width="520" alt="Screen Shot 2022-10-23 at 15 30 51" src="https://user-images.githubusercontent.com/90776557/197392262-fbb805ad-0312-4e2d-9016-547749810893.png">
